@@ -1,13 +1,13 @@
-# [Project Name] 🎯
+# [waste management] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Tech]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Arathi Sathyan] - [College of Engineering,Adoor]
+- Member 2: [Meghna Sudheer] - [College of Engineering,Adoor]
 - Member 3: [Name] - [College]
 
 ### Hosted Project Link
@@ -17,15 +17,15 @@
 [2-3 lines about what your project does]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[deposition of garbages into public places ]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[AI sensor which detect the person who throws garbages into public places and send them fine according to the waste type]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [HTML,javascript]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -48,10 +48,10 @@ For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+*contains image and video related to waste management*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+**
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
