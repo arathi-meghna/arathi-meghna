@@ -11,10 +11,10 @@
 - Member 3: [Name] - [College]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+legendary-crisp-3d2f95.netlify.app
 
 ### Project Description
-[2-3 lines about what your project does]
+waste management system
 
 ### The Problem statement
 [deposition of garbages into public places ]
@@ -25,10 +25,9 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [HTML,javascript]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML ,css,javascript]
+- 
+-vscode
 
 For Hardware:
 - [List main components]
@@ -91,9 +90,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- meghna sudheer
+- arathi sathyan
 
 ---
 Made with ❤️ at TinkerHub
