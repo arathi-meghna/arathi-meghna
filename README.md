@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![](fine.jpg)
 *contains image and video related to waste management*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](home.png)
 **
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](qrcode.png)
 *Add caption explaining what this shows*
 
 # Diagrams
