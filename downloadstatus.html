@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>downloadstatus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Waste Fine Payment Check</h1>
+    <p>Enter your payment status to check if you've paid the fine.</p>
+
+    <!-- Input field to enter whether the fine has been paid -->
+    <input type="text" id="paymentStatus" placeholder="Enter 'paid' if you have paid the fine" />
+
+    <!-- Button to check the payment -->
+    <button onclick="checkPayment()">Check Payment Status</button>
+
+    <!-- Message to display if the payment is not paid or allowed to download the receipt -->
+    <p id="statusMessage"></p>
+
+    <script>
+        // Function to check payment status
+        function checkPayment() {
+            const paymentStatus = document.getElementById('paymentStatus').value.trim().toLowerCase();
+            const statusMessage = document.getElementById('statusMessage');
+
+            // Check if the user has entered 'paid'
+            if (paymentStatus === 'paid') {
+                statusMessage.innerHTML = 'Thank you for paying your fine! <br><a href="receipt.pdf" download="Receipt.pdf"><button>Download Receipt</button></a>';
+            } else {
+                statusMessage.innerHTML = 'You have not paid the fine. Please pay it to receive a receipt.';
+            }
+        }
+    </script>
+
+</body>
+</html>

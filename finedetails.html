@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .waste-type, .fine-amount {
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Waste Detection System</h1>
+
+    <div class="container">
+        <div class="waste-type">
+            <h3>Detected Waste:</h3>
+            <p id="detected-waste">Loading...</p>
+        </div>
+        <div class="fine-amount">
+            <h3>Fine Amount:</h3>
+            <p id="fine-amount">Calculating...</p>
+        </div>
+    </div>
+
+    <div>
+        <button onclick="processWaste('plastic')">Plastic Waste</button>
+        <button onclick="processWaste('paper')">Paper Waste</button>
+        <button onclick="processWaste('glass')">Glass Waste</button>
+        <button onclick="processWaste('organic')">Organic Waste</button>
+    </div>
+
+    <script>
+        function processWaste(wasteType) {
+            let fineAmount;
+
+            switch(wasteType) {
+                case 'plastic':
+                    fineAmount = 50; // Example fine for plastic waste
+                    break;
+                case 'paper':
+                    fineAmount = 30; // Example fine for paper waste
+                    break;
+                case 'glass':
+                    fineAmount = 40; // Example fine for glass waste
+                    break;
+                case 'organic':
+                    fineAmount = 20; // Example fine for organic waste
+                    break;
+                default:
+                    fineAmount = 0;
+                    break;
+            }
+
+            // Simulating the detection
+            document.getElementById('detected-waste').textContent = wasteType.charAt(0).toUpperCase() + wasteType.slice(1) + " Waste";
+            document.getElementById('fine-amount').textContent = "$" + fineAmount;
+        }
+    </script>
+</body>
+</html>
